@@ -28,7 +28,7 @@ const LoginScreen = ({ navigation }) => {
 
   const onPressLogin = () => {
     let validate = validateAllFields();
-    if (true) {
+    if (validate) {
       navigation.navigate("Search");
     }
   };

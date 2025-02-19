@@ -10,14 +10,8 @@ const UserSlice = createSlice({
       console.log("state", action);
       state.users.push(action.payload);
     },
-    updateUser: (state, action) => {
-      state.users[action.payload.index] = action.payload.data;
-    },
-    deleteUser: (state, action) => {
-      state.users = state.users.filter((_, index) => index !== action.payload);
-    },
   },
 });
 
-export const { addUser, updateUser, deleteUser } = UserSlice.actions;
+export const { addUser } = UserSlice.actions;
 export default UserSlice.reducer;
