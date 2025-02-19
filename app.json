@@ -3,10 +3,18 @@
     "name": "assignment",
     "slug": "assignment",
     "version": "1.0.0",
+    "android": {
+      "package": "com.akshaysoraganvi07.assignment"
+    },
     "platforms": [
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "94361af8-1432-4516-945b-7bfefff8a7f8"
+      }
+    }
   }
 }
